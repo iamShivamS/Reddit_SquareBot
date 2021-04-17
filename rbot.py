@@ -1,6 +1,6 @@
 # Client id and Cilent Service has been generated from https://www.reddit.com/prefs/apps
 # User agent has to be unique string
-# username, password and subreddit has been changed due to security reason
+# Username, Password and Subreddit name has been changed due to security reason
 
 import praw
 import random
@@ -10,10 +10,10 @@ reddit = praw.Reddit(
     client_id="UbtXxEi4kdixKA",
     client_secret="CXgMZJlVysR4oV4QYyoSuDb8LiNvZQ",
     user_agent="<console:Square:0.1>",
-    username="square287",
-    password="Sr24!@23")
+    username="realid",
+    password="1234")
 
-sub = reddit.subreddit("test_bus")
+sub = reddit.subreddit("test_bus_4.1")
 
 square_facts = ["A square is a regular quadrilateral",
                 "Square can also be defined as a rectangle in which two adjacent sides have equal length",
